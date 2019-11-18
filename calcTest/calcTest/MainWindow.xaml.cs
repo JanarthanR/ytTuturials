@@ -31,14 +31,27 @@ namespace calcTest
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
 
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string token = numberTextBox.Text;
-            numberTextBox.Text = CalculationPerformer.calculate(token).ToString();
+
+            string content = (sender as Button).Content.ToString();
+            if (content != "=")
+            {
+                numberTextBox.Text += content;
+            }
+            else {
+                numberTextBox.Text = CalculationPerformer.calculate(numberTextBox.Text).ToString();
+            }
+            
+
+           
+        }
+
+        private void closeCalculator(object sender, MouseEventArgs args)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

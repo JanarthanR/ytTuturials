@@ -12,8 +12,28 @@
         <SolidColorBrush Opacity="0.95" Color="White"/>
     </Window.Background>
     <Grid>
-        
-        <Button Content="Button" HorizontalAlignment="Left" Margin="144,193,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Height="59" TextAlignment="Right" Margin="0,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="20"/>
+        <TextBlock Text="Awesome Calculator" Margin="10,-1,146,422" FontSize="20" />
+        <Button Content="=" Background="White" HorizontalAlignment="Center" Margin="285,385,0,0" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Height="91" TextAlignment="Right" Margin="0,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="40"/>
+        <Image HorizontalAlignment="Left" Height="15" Margin="329,6,6,6" VerticalAlignment="Top" Width="15" Source="icons/cancel_icon.png" MouseDown="closeCalculator" />
+        <Button Content="." Background="White" HorizontalAlignment="Center" Margin="220,385,65,0" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="+" Background="White" HorizontalAlignment="Center" Margin="285,320,0,65" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="-" Background="White" HorizontalAlignment="Center" Margin="285,255,0,130" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="*" Background="White" HorizontalAlignment="Center" Margin="285,190,0,195" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="/" Background="White" HorizontalAlignment="Center" Margin="285,125,0,260" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="0" Background="White" HorizontalAlignment="Center" Margin="155,385,130,0" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="=" Background="White" HorizontalAlignment="Center" Margin="90,385,195,0" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="3" Background="White" HorizontalAlignment="Center" Margin="220,320,65,65" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="6" Background="White" HorizontalAlignment="Center" Margin="220,255,65,130" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="9" Background="White" HorizontalAlignment="Center" Margin="220,190,65,195" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content=")" Background="White" HorizontalAlignment="Center" Margin="220,125,65,260" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="2" Background="White" HorizontalAlignment="Center" Margin="155,320,130,65" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="5" Background="White" HorizontalAlignment="Center" Margin="155,255,130,130" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="8" Background="White" HorizontalAlignment="Center" Margin="155,190,130,195" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="(" Background="White" HorizontalAlignment="Center" Margin="155,125,130,260" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="1" Background="White" HorizontalAlignment="Center" Margin="90,320,195,65" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="4" Background="White" HorizontalAlignment="Center" Margin="90,255,195,130" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Button Content="7" Background="White"  HorizontalAlignment="Center" Margin="90,190,195,195" VerticalAlignment="Center" Width="65" Click="Button_Click" Height="65" FontSize="40" Padding="1,-4,1,1"/>
+        <Image   Source="icons/backspace_icon.png" HorizontalAlignment="Center" Margin="90,125,195,260" VerticalAlignment="Center" Width="65"  Height="65" />
     </Grid>
 </Window>

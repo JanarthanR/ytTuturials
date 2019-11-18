@@ -13,3 +13,18 @@ C:\Users\mmnet\source\repos\calcTest\calcTest\obj\Debug\calcTest.csproj.Generate
 C:\Users\mmnet\source\repos\calcTest\calcTest\obj\Debug\calcTest.csproj.CoreCompileInputs.cache
 C:\Users\mmnet\source\repos\calcTest\calcTest\obj\Debug\calcTest.exe
 C:\Users\mmnet\source\repos\calcTest\calcTest\obj\Debug\calcTest.pdb
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\bin\Debug\calcTest.exe.config
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\bin\Debug\calcTest.exe
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\bin\Debug\calcTest.pdb
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.csprojAssemblyReference.cache
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\MainWindow.g.cs
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\App.g.cs
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest_MarkupCompile.cache
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest_MarkupCompile.lref
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\MainWindow.baml
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.g.resources
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.Properties.Resources.resources
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.csproj.GenerateResource.cache
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.csproj.CoreCompileInputs.cache
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.exe
+C:\Users\mmnet\Desktop\school\fall 2019\yt\calc-series-code\ytTuturials\calcTest\calcTest\obj\Debug\calcTest.pdb
